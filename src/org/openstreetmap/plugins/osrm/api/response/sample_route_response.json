@@ -1,0 +1,125 @@
+{
+    "code": "Ok",
+    "routes": [
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        47.049852,
+                        15.413766
+                    ],
+                    [
+                        47.049852,
+                        15.413766
+                    ],
+                    [
+                        47.049852,
+                        15.413766
+                    ]
+                ],
+                "type": "LineString"
+            },
+            "legs": [
+                {
+                    "steps": [],
+                    "summary": "",
+                    "weight": 0,
+                    "duration": 0,
+                    "annotation": {
+                        "metadata": {
+                            "datasource_names": [
+                                "lua profile"
+                            ]
+                        },
+                        "datasources": [
+                            0
+                        ],
+                        "weight": [
+                            0
+                        ],
+                        "nodes": [
+                            5956034134,
+                            5956034135
+                        ],
+                        "distance": [
+                            0
+                        ],
+                        "duration": [
+                            0
+                        ],
+                        "speed": [
+                            0
+                        ]
+                    },
+                    "distance": 0
+                },
+                {
+                    "steps": [],
+                    "summary": "",
+                    "weight": 0,
+                    "duration": 0,
+                    "annotation": {
+                        "metadata": {
+                            "datasource_names": [
+                                "lua profile"
+                            ]
+                        },
+                        "datasources": [
+                            0
+                        ],
+                        "weight": [
+                            0
+                        ],
+                        "nodes": [
+                            5956034134,
+                            5956034135
+                        ],
+                        "distance": [
+                            0
+                        ],
+                        "duration": [
+                            0
+                        ],
+                        "speed": [
+                            0
+                        ]
+                    },
+                    "distance": 0
+                }
+            ],
+            "weight_name": "routability",
+            "weight": 0,
+            "duration": 0,
+            "distance": 0
+        }
+    ],
+    "waypoints": [
+        {
+            "hint": "OH7ehDp-3oQAAAAATgAAAAAAAAAYAQAAAAAAAJfyrEEAAAAAigCbQgAAAABOAAAAAAAAABgBAAAsGwAAfOzNAgYy6wDQVM4CZ3PrAAAADxLCizEc",
+            "distance": 3412.901811094,
+            "name": "",
+            "location": [
+                47.049852,
+                15.413766
+            ]
+        },
+        {
+            "hint": "OH7ehDp-3oQAAAAATgAAAAAAAAAYAQAAAAAAAJfyrEEAAAAAigCbQgAAAABOAAAAAAAAABgBAAAsGwAAfOzNAgYy6wCjVM4C33TrAAAADxLCizEc",
+            "distance": 3431.627417185,
+            "name": "",
+            "location": [
+                47.049852,
+                15.413766
+            ]
+        },
+        {
+            "hint": "OH7ehDp-3oQAAAAATgAAAAAAAAAYAQAAAAAAAJfyrEEAAAAAigCbQgAAAABOAAAAAAAAABgBAAAsGwAAfOzNAgYy6wAeT84CwHbrAAAADxLCizEc",
+            "distance": 3336.971946168,
+            "name": "",
+            "location": [
+                47.049852,
+                15.413766
+            ]
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project xmlns:if="ant:if" xmlns:ivy="antlib:org.apache.ivy.ant" name="OSRM" default="dist" basedir=".">
+<!-- <project name="OSRM" default="dist" basedir="."> -->
+
+    <!-- enter the SVN commit message -->
+    <!-- <property name="commit.message" value="[josm_utilsplugin2]: select boundary by double-click; multitagger table highlights"/> -->
+    <!-- enter the *lowest* JOSM version this plugin is currently compatible with -->
+    <property name="plugin.main.version" value="18495"/>
+
+    <property name="plugin.author" value="Woazboat"/>
+    <property name="plugin.class" value="org.openstreetmap.josm.plugins.osrm.OsrmPlugin"/>
+    <property name="plugin.description" value="Routing via external OSRM server."/>
+    <property name="plugin.icon" value="images/utils.png"/>
+    <!-- <property name="plugin.link" value="https://josm.openstreetmap.de/wiki/Help/Plugin/UtilsPlugin2"/> -->
+    <!-- <property name="plugin.canloadatruntime" value="false"/> -->
+    <!-- <property name="plugin.stage" value="40"/> -->
+
+    <!-- ** include targets that all plugins have in common ** -->
+    <import file="../build-common.xml"/>
+
+    <fileset id="plugin.requires.jars" dir="${plugin.dist.dir}">
+        <include name="apache-commons.jar"/>
+        <include name="apache-http.jar"/>
+        <include name="jackson.jar"/>
+    </fileset>
+
+</project>

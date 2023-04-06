@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<ivy-module xmlns:m="http://ant.apache.org/ivy/maven" version="2.0">
+  <info organisation="org.openstreetmap.josm.plugins" module="OSRM" revision="0.0.1"/>
+  <configurations defaultconf="default" defaultconfmapping="default-&gt;default">
+    <conf name="default"/>
+    <conf name="provided" description="Needed for compile, but will be present at runtime"/>
+  </configurations>
+  <dependencies>
+    <dependency org="com.fasterxml.jackson.core" name="jackson-core" rev="2.14.0" conf="default->default"/>
+    <dependency org="com.fasterxml.jackson.core" name="jackson-annotations" rev="2.14.0" conf="default->default"/>
+    <dependency org="com.fasterxml.jackson.core" name="jackson-databind" rev="2.14.0" conf="default->default"/>
+    <!-- from jackson plugin -->
+    <!-- <exclude org="com.fasterxml.jackson.core" module="jackson-core"/> -->
+  </dependencies>
+</ivy-module>
